@@ -65,3 +65,37 @@ nav ul li a:hover {
     border: 5px solid #7a21b2; 
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
+.habilidades {
+    padding: 60px 10%;
+    background-color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+table thead tr {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+table tbody tr:hover {
+    background-color: #f1e6f9;
+    transition: 0.3s;
+}
+
+.competencia-ruta {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
+}
