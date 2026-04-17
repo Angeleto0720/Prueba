@@ -1,3 +1,4 @@
+HEAD
 /* Reset básico */
 * {
     margin: 0;
@@ -35,4 +36,78 @@ nav ul li a:hover {
 .logo img {
     border-radius: 20px; 
     object-fit: cover;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #7a21b2;
+}
+
+.logo img {
+    border-radius: 12px; 
+    object-fit: cover;
+}
+
+.presentacion {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 10%;
+    background-color: #f4f4f4;
+    gap: 40px;
+}
+
+.contenido-intro h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contenido-intro p {
+    line-height: 1.6;
+    color: #555;
+    max-width: 600px;
+}
+
+.foto-perfil img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 5px solid #7a21b2; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+d989f4a (feat: sección sobre mí)
 }
