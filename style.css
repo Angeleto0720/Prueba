@@ -1,3 +1,5 @@
+/* HEADER Y NAVEGACION */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -24,10 +26,23 @@ nav ul li a:hover {
     color: #7a21b2;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .logo img {
     border-radius: 12px; 
     object-fit: cover;
 }
+
+.logo span {
+    line-height: 1;
+    display: inline-block;
+}
+
+/* PRESENTACION */
 
 .presentacion {
     display: flex; 
@@ -66,6 +81,74 @@ nav ul li a:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
+/* SOBRE MI */
+
+.sobre-mi-seccion {
+    padding: 80px 10%;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.sobre-mi-seccion h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.contenedor-sobre-mi {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-sobre-mi article {
+    flex: 1;
+    max-width: 600px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.cabecera-bloque {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contenedor-sobre-mi blockquote {
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    border-left: none;
+    padding: 0 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datos-personales {
+    flex: 0 0 320px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-left: 4px solid #7a21b2;
+}
+
+.datos-personales h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.datos-personales ul {
+    list-style: none;
+}
+
+.datos-personales ul li {
+    margin-bottom: 10px;
+}
+
+/* HABILIDADES */
 .habilidades {
     padding: 60px 10%;
     background-color: #ffffff;
@@ -99,6 +182,8 @@ table tbody tr:hover {
     gap: 40px;
     margin-top: 30px;
 }
+
+/* PROYECTOS */
 
 .seccion-proyectos {
     padding: 80px 10%;
