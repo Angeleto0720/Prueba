@@ -149,38 +149,82 @@ nav ul li a:hover {
 }
 
 /* HABILIDADES */
+
 .habilidades {
-    padding: 60px 10%;
+    padding: 80px 10%;
     background-color: #ffffff;
+    text-align: center;
 }
 
-table {
+/* Centrado de Títulos */
+.habilidades-cabecera {
+    margin-bottom: 40px;
+}
+
+.habilidades-cabecera h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.habilidades table {
     width: 100%;
+    max-width: 1000px;
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: 0 auto 50px;
 }
 
-table thead tr {
-    background-color: #1a1a1a;
+.habilidades table thead tr {
+    background-color: #4b1b68;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 
-table th, table td {
-    padding: 12px 15px;
+.habilidades table th, 
+.habilidades table td {
+    padding: 15px;
     border: 1px solid #dddddd;
+    text-align: center;
+    vertical-align: middle;
 }
 
-table tbody tr:hover {
+.habilidades table tbody tr:hover {
     background-color: #f1e6f9;
     transition: 0.3s;
 }
 
-.competencia-ruta {
+.competencias-ruta {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;         
+}
+
+.columna-habilidades {
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+    background: #fdfdfd;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    text-align: left;
+    border-top: 5px solid #7a21b2;
+}
+
+.columna-habilidades h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.columna-habilidades ul, 
+.columna-habilidades ol {
+    padding-left: 20px;
+    color: #555;
+    line-height: 1.6;
 }
 
 /* PROYECTOS */
